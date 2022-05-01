@@ -21,4 +21,25 @@ img {
     padding: 15px 30px;
     border-radius: 5px;
     border: none;
+    border: 1px solid darkgray;
+}
+
+.input {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid darkgray;
+}
+
+.timer {
+    display: flex;
+}
+
+.field {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.field > .value {
+    font-weight: 700;
 }
